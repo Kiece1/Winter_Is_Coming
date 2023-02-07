@@ -1,0 +1,16 @@
+@media (680<width<900px) {
+  header video {
+    display: none;
+    visibility: hidden;
+  }
+
+  header img {
+    width: 100vw;
+    height: auto;
+  }
+
+  .container {
+    max-height: 50vh;
+    overflow: hidden;
+  }
+}

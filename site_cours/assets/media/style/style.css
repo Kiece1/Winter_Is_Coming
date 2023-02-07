@@ -1,0 +1,44 @@
+:root {
+  --card-width-desktop: 28vw;
+  --card-border-radius-desktop: 6px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  word-wrap: break-word;
+  white-space: wrap;
+  font-family: "Noto Sans NKo", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.colCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowEnd {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.gridCenter {
+  display: grid;
+  justify-content: baseline;
+  grid-template-columns: repeat(3, 1fr);
+}

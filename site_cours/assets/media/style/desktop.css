@@ -1,0 +1,237 @@
+@media (width>=900px) {
+  body {
+    background: rgba(65, 105, 225, 0.364);
+  }
+
+  header video {
+    width: 100vw;
+  }
+
+  nav {
+    position: fixed;
+    padding: 1.5rem;
+    background: rgb(0, 106, 198);
+    width: 100%;
+    z-index: 2;
+  }
+
+  nav:hover {
+    background: white;
+  }
+
+  nav:hover li {
+    color: rgb(0, 106, 198);
+  }
+
+  nav li {
+    margin: 1rem 3rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+  }
+
+  #logo {
+    width: 32px;
+    transform: translateY(5px);
+    clip-path: circle(50%);
+  }
+
+  header img {
+    display: none;
+    visibility: hidden;
+  }
+
+  header h1 {
+    margin-top: 2rem;
+    font-size: 7rem;
+    color: rgb(0, 106, 198);
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .headerText {
+    position: absolute;
+    color: rgb(0, 106, 198);
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .headerText blockquote {
+    margin: 2rem 0 0 0;
+    font-size: 900;
+    width: 50vw;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .headerText cite {
+    margin: 1rem 0;
+  }
+
+  .headerText button {
+    margin: 2rem 0 1rem;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    background: white;
+    border: var(--card-border-radius-desktop) solid rgb(0, 106, 198);
+    font-size: 2rem;
+    color: rgb(0, 106, 198);
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .headerText button:hover {
+    background: rgb(0, 106, 198);
+    font-weight: 900;
+    color: aliceblue;
+  }
+
+  main h2 {
+    margin: 2rem auto;
+    font-size: 3rem;
+    color: rgb(0, 106, 198);
+  }
+
+  main .cards {
+    margin: 0 auto;
+  }
+
+  main .cardShadow {
+    filter: drop-shadow(-2px 7px 40px rgba(00, 00, 0, 0.5));
+  }
+
+  main .cardShadowVariation {
+    filter: drop-shadow(-2px 7px 40px rgba(00, 00, 0, 0.5));
+  }
+
+  main .cardShadow:hover {
+    filter: drop-shadow(-2px 7px 1px rgba(0, 0, 0, 0.5));
+  }
+
+  main .card {
+    margin: 3vw auto;
+    width: var(--card-width-desktop);
+    border-radius: var(--card-border-radius-desktop);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    background: rgb(115, 217, 252);
+    transition: 1s;
+  }
+
+  main .card .imgCard {
+    height: 30vh;
+    overflow: hidden;
+  }
+
+  main .cardVariation {
+    margin: 3rem auto;
+    width: calc(2 * var(--card-width-desktop));
+    height: 40vh;
+    border-radius: var(--card-border-radius-desktop);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.563);
+    background: rgb(115, 217, 252);
+  }
+
+  main .card:hover,
+  main .cardVariation:hover {
+    transition: 1s;
+    transform: translateY(-5px);
+  }
+
+  main .cardVariation:hover {
+    box-shadow: 2px 2px 1px rgb(0, 0, 0);
+  }
+
+  main .card img {
+    width: var(--card-width-desktop);
+    height: auto;
+  }
+
+  main .imgCard {
+    width: var(--card-width-desktop);
+    height: 33vh;
+    object-fit: fill;
+    border-radius: var(--card-border-radius-desktop)
+      var(--card-border-radius-desktop) 0 0;
+  }
+
+  main .cardVariation img {
+    margin: 5px 0 0 0;
+    width: 100%;
+    height: 40vh;
+    border-radius: var(--card-border-radius-desktop) 0 0
+      var(--card-border-radius-desktop);
+  }
+
+  main .card h3,
+  main .cardVariation h3 {
+    margin: 1.3rem auto;
+    font-size: 1.9rem;
+  }
+
+  .card .cardText {
+    height: 10vh;
+    text-align: justify;
+    white-space: wrap;
+    /* overflow-y: auto; */
+  }
+
+  .cardVariation .cardText {
+    height: 10vh;
+    text-align: justify;
+  }
+
+  main .cardText p {
+    padding: 0 1rem;
+    width: calc(0.9 * var(--card-width-desktop));
+  }
+
+  main .card button,
+  main .cardVariation button {
+    margin: 5rem auto;
+    padding: 0.9rem 2.4rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: white;
+    border-radius: var(--card-border-radius-desktop);
+    border: rgb(0, 106, 198);
+    color: rgb(0, 106, 198);
+  }
+
+  main .cardVariation button {
+    margin: 8rem auto 2rem;
+  }
+
+  main .card button:hover,
+  main .cardVariation button:hover {
+    background: rgb(0, 106, 198);
+    color: aliceblue;
+  }
+
+  footer {
+    width:100vw;
+    margin: 3rem auto 0;
+    padding: 3rem 1rem;
+    background: white;
+  }
+
+  .containerCopy{
+    width:100vw;
+  }
+
+  /* .container div p {
+    margin: -2.5rem 2rem 0.5rem;
+    line-height: 1.8rem;
+    text-indent: 3rem;
+    width: 24vw;
+    text-align: justify;
+    white-space: wrap;
+  } */
+
+  /* div p {
+    margin: 0.5rem 2rem 0.5rem;
+    width: 24vw;
+    text-align: justify;
+    white-space: wrap;
+  }
+  .container div i {
+    margin: 1rem; 
+    /* float: left;
+    width: 24vw;
+  } */
+}
